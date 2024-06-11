@@ -1,0 +1,39 @@
+.container {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.quote {
+  text-align: center;
+  width: 300px;
+  font-size: 1.2rem;
+  color: rgb(207, 204, 204);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.saveBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.saveBtn:hover {
+  background-color: #0056b3;
+}

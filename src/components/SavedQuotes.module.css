@@ -1,0 +1,27 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 2rem 1rem;
+}
+
+.container ul {
+  width: 300px;
+  text-align: start;
+  list-style: none;
+  padding: 0;
+}
+
+.container p {
+  color: rgb(207, 204, 204);
+}
+
+.container li {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  color: rgb(207, 204, 204);
+}
